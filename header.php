@@ -15,14 +15,18 @@
         <header>
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
                 <div class="container-fluid">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.php">Home</a>
+                    <ul class="navbar-nav d-flex p-2">
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="formCadastrarProduto.php">Cadastrar Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="listarProduto.php">Listar produtos</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="formCadastrarProduto.php">Cadastrar Produtos</a></li>
+                        <li class="nav-item p-2"><a class="nav-link" href="listarProduto.php">Lista de produtos</a></li>
+                        
+                    </ul>
+                    <ul class="navbar-nav d-flex p-2 ">
+                        <li class="nav-item p-2"><a class="nav-link" href="formLogin.php">Login</a></li>
                     </ul>
                 </div>
             </nav>
-            
+
         </header>
